@@ -33,11 +33,9 @@ const Home = () => {
             camera={{near: 0.1, far: 1000}}
         >
             <Suspense fallback={<Loader />}>
-                <directionalLight />
-                <ambientLight />
-                <pointLight />
-                <spotLight />
-                <hemisphereLight />
+                <directionalLight position={[12, 4, -3]} intensity={2} />
+                <ambientLight intensity={0.5} />
+                <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
 
                 <Island
                     scale={islandScale}
