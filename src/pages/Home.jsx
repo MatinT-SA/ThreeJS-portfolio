@@ -66,7 +66,7 @@ const Home = () => {
                     <Island
                         scale={islandScale}
                         position={islandPosition}
-                        rotation={islandRotation}
+                        rotation={[0.1, 4.7077, 0]}
                         isRotating={isRotating}
                         setIsRotating={setIsRotating}
                         setCurrentStage={setCurrentStage}

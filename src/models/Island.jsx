@@ -113,7 +113,7 @@ const Island = ({ isRotating, setIsRotating, setCurrentStage, ...props }) => {
     return () => {
       canvas.removeEventListener('pointerdown', handlePointerDown);
       canvas.removeEventListener('pointerup', handlePointerUp);
-      canvas.removeEventListener('pointermove', handlePointerUp);
+      canvas.removeEventListener('pointermove', handlePointerMove);
       document.removeEventListener('keydown', handleKeyDown);
       document.removeEventListener('keyup', handleKeyUp);
     }
