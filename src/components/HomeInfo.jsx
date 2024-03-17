@@ -40,7 +40,7 @@ const renderContent = {
         <InfoBox
             text="Don't hesitate to get in touch with me if you're looking for the right person for your projects"
             link="/contact"
-            btnText="I'm online"
+            btnText="Send me a message"
         />
     ),
 }
