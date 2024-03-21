@@ -1,5 +1,9 @@
-import React, { useRef, useState } from 'react';
+import React, { Suspense, useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { Canvas } from '@react-three/fiber';
+
+import Fox from '../models/Fox';
+import { Loader } from '@react-three/drei';
 
 const Contact = () => {
   const formRef = useRef(null);
@@ -29,7 +33,7 @@ const Contact = () => {
       // TODO: Show success message
       // TODO: Hide an alert
 
-      setForm({name: '', email: '', message: ''});
+      setForm({ name: '', email: '', message: '' });
     }).catch((error) => {
       setIsLoading(false);
       console.log(error);
@@ -43,63 +47,81 @@ const Contact = () => {
     <section className="relative flex lg:flex-row flex-col max-container">
       <div className="flex-1 min-w-[50] flex flex-col">
         <h1 className="head-text">Get in touch</h1>
+
+
+        <form className="w-full flex flex-col gap-7 mt-14" onSubmit={handleSubmit}>
+          <label className="text-black-500 font-semibold">
+            Name
+            <input
+              type="text"
+              name="name"
+              className="input"
+              placeholder="Matin"
+              required
+              value={form.name}
+              onChange={handleChange}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
+          </label>
+
+          <label className="text-black-500 font-semibold">
+            Email
+            <input
+              type="email"
+              name="email"
+              className="input"
+              placeholder="matin@gmail.com"
+              required
+              value={form.email}
+              onChange={handleChange}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
+          </label>
+          <label className="text-black-500 font-semibold">
+            Your Message
+            <textarea
+              name="message"
+              rows={4}
+              className="textarea"
+              placeholder="Open up everything you wanna share with me here! 😉"
+              required
+              value={form.message}
+              onChange={handleChange}
+              onFocus={handleFocus}
+              onBlur={handleBlur}
+            />
+          </label>
+
+          <button
+            type='submit'
+            className='btn'
+            onFocus={handleFocus}
+            onBlur={handleBlur}
+            disabled={isLoading}
+          >
+            {isLoading ? "Sending..." : "Submit Message"}
+          </button>
+        </form>
       </div>
 
-      <form className="w-full flex flex-col gap-7 mt-14" onSubmit={handleSubmit}>
-        <label className="text-black-500 font-semibold">
-          Name
-          <input
-            type="text"
-            name="name"
-            className="input"
-            placeholder="Matin"
-            required
-            value={form.name}
-            onChange={handleChange}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-          />
-        </label>
-
-        <label className="text-black-500 font-semibold">
-          Email
-          <input
-            type="email"
-            name="email"
-            className="input"
-            placeholder="matin@gmail.com"
-            required
-            value={form.email}
-            onChange={handleChange}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-          />
-        </label>
-        <label className="text-black-500 font-semibold">
-          Your Message
-          <textarea
-            name="message"
-            rows={4}
-            className="textarea"
-            placeholder="Open up everything you wanna share with me here! 😉"
-            required
-            value={form.message}
-            onChange={handleChange}
-            onFocus={handleFocus}
-            onBlur={handleBlur}
-          />
-        </label>
-
-        <button
-          type='submit'
-          className='btn'
-          onFocus={handleFocus}
-          onBlur={handleBlur}
-          disabled={isLoading}
+      <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
+        <Canvas
+          camera={{
+            position: [0, 0, 5]
+          }}
         >
-          {isLoading ? "Sending..." : "Submit Message"}
-        </button>
-      </form>
+          <Suspense fallback={<Loader />}>
+            <Fox
+              position={[0.5, 0.35, 0]}
+              rotation={[12, 0, 0]}
+              scale={[0.5, 0.5, 0.5]}
+            />
+          </Suspense>
+        </Canvas>
+      </div>
+      
     </section>
   )
 }
