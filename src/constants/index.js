@@ -1,30 +1,24 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
 import {
-    car,
     contact,
     css,
-    estate,
     express,
     git,
     github,
     html,
     javascript,
-    linkedin,
     mongodb,
-    motion,
     mui,
-    nextjs,
     nodejs,
-    pricewise,
     react,
     redux,
-    sass,
-    snapgram,
-    summiz,
     tailwindcss,
-    threads,
-    typescript
+    csharp,
+    bootstrap,
+    dotnetcore,
+    instagram
 } from "../assets/icons";
+
+import {sqlserver} from '../assets/icons';
 
 export const skills = [
     {
@@ -98,8 +92,8 @@ export const skills = [
         type: "Backend",
     },
     {
-        imageUrl: aspnet,
-        name: "ASP.NET",
+        imageUrl: dotnetcore,
+        name: "ASP.NET Core",
         type: "Backend",
     },
     {
