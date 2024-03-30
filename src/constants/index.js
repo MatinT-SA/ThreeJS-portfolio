@@ -15,7 +15,13 @@ import {
     csharp,
     bootstrap,
     dotnetcore,
-    instagram
+    instagram,
+    guessTheNumber,
+    qrcode,
+    telenote,
+    MatinShop,
+    Figma,
+    snake
 } from "../assets/icons";
 
 import {sqlserver} from '../assets/icons';

@@ -26,6 +26,12 @@ import csharp from './csharp.svg'
 import bootstrap from './bootstrap.svg'
 import dotnetcore from './dotnetcore.svg'
 import instagram from './instagram.svg'
+import guessTheNumber from './guessTheNumber.svg'
+import qrcode from './qrcode.svg'
+import telenote from './telenote.svg'
+import MatinShop from './MatinShop.svg'
+import Figma from './Figma.svg'
+import snake from './snake.svg'
 
 export {
     css,
@@ -55,5 +61,11 @@ export {
     csharp,
     dotnetcore,
     bootstrap,
-    instagram
+    instagram,
+    guessTheNumber,
+    qrcode,
+    telenote,
+    MatinShop,
+    Figma,
+    snake
 }
