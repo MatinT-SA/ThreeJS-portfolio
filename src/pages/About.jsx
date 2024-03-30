@@ -25,6 +25,17 @@ const About = () => {
         </div>
       </div>
 
+      <div className='py-16'>
+        <h3 className='subhead-text'>Work Experience</h3>
+        <div className="mt-5 flex flex-col gap-3 text-slate-500">
+          <p>Spearheaded my freelance journey in web development for five years, with a notable period of about two years engaging in collaborative ventures alongside knowledgeable peers in adjacent computer fields like graphic design, digital marketing, SEO tactics, and accounting principles, fueling mutual growth and shared success:</p>
+        </div>
+
+        <div className='mt-12 flex'>
+
+        </div>
+      </div>
+
     </section>
   )
 }
