@@ -132,7 +132,14 @@ export const experiences = [
         ],
     },
     {
-        title: "Freelance Web Developer",
+        title: "Content Writer",
+        date: "January 2023 - February 2023",
+        points: [
+            "During my brief experience, spanning nearly one month, as a Content Writer for Canadian plumbing and house furniture companies, I tailored compelling content to meet industry standards. This involved creating SEO-friendly copy to enhance brand awareness and foster customer engagement.",
+        ],
+    },
+    {
+        title: "Web Developer",
         date: "October 2017 - until now",
         points: [
             "Developing cool websites using different technologies such as ASP.NET MVC and Core, ReactJS, MERN Stack, JavaScript, C#, Bootstrap, jQuery, ThreeJS and so on...",
