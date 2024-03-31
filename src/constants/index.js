@@ -114,7 +114,7 @@ export const experiences = [
         title: "English Teacher",
         date: "September 2018 - September 2019",
         points: [
-            "Being English teacher for beginner or intermediate students at Parsian Farhang Language Institution",
+            "Teaching English to beginner and intermediate learners with dedication and expertise at Parsian Farhang Language Institution for about a year.",
         ],
     },
     {
