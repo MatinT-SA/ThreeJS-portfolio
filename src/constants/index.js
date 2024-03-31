@@ -111,10 +111,31 @@ export const skills = [
 
 export const experiences = [
     {
+        title: "English Teacher",
+        date: "September 2018 - September 2019",
+        points: [
+            "Being English teacher for beginner or intermediate students at Parsian Farhang Language Institution",
+        ],
+    },
+    {
+        title: "WordPress Developer",
+        date: "November 2022 - March 2024",
+        points: [
+            "Throughout my tenure in a specialized environment, I held the sole responsibility as the primary WordPress developer for nearly one and a half years. This role demanded adept management and optimization of WordPress platforms to meet organizational objectives. My experience as the main developer honed not only my technical skills but also my ability to adapt and excel in diverse settings.",
+        ],
+    },
+    {
+        title: "Full-Stack Developer & SQL Server DBA",
+        date: "November 2023 - March 2024",
+        points: [
+            "Managed SQL Server database infrastructure to uphold data confidentiality and integrity. Developed a feature-rich web application with ASP.NET Core, JavaScript, and Bootstrap 5, enabling efficient CRUD operations and Excel data export via DataTables.net. Integrated secure user registration and login functionalities, limiting access to authorized personnel within the organization's internal network. Implemented an intuitive search and filtering feature, allowing users to quickly locate and analyze desired information within the available data tables.",
+        ],
+    },
+    {
         title: "Freelance Web Developer",
         date: "October 2017 - until now",
         points: [
-            "Developing cool websites using different technologies such as ASP.NET MVC and Core, ReactJS, MERN Stack, JavaScript and so on...",
+            "Developing cool websites using different technologies such as ASP.NET MVC and Core, ReactJS, MERN Stack, JavaScript, C#, Bootstrap, jQuery, ThreeJS and so on...",
         ],
     },
 ];
