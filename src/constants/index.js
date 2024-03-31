@@ -1,3 +1,5 @@
+import { parsianFarhang, myadegaran, yorkbuilding, matintaherzadeh } from "../assets/images";
+
 import {
     contact,
     css,
@@ -112,6 +114,9 @@ export const skills = [
 export const experiences = [
     {
         title: "English Teacher",
+        company_name: "Parsian Farhang",
+        icon: parsianFarhang,
+        iconBg: '#d3dbe8',
         date: "September 2018 - September 2019",
         points: [
             "Teaching English to beginner and intermediate learners with dedication and expertise at Parsian Farhang Language Institution for about a year.",
@@ -119,6 +124,9 @@ export const experiences = [
     },
     {
         title: "WordPress Developer",
+        company_name: "myadegaran",
+        icon: myadegaran,
+        iconBg: '#78eb9a',
         date: "November 2022 - March 2024",
         points: [
             "Throughout my tenure in a specialized environment, I held the sole responsibility as the primary WordPress developer for nearly one and a half years. This role demanded adept management and optimization of WordPress platforms to meet organizational objectives. My experience as the main developer honed not only my technical skills but also my ability to adapt and excel in diverse settings.",
@@ -126,6 +134,9 @@ export const experiences = [
     },
     {
         title: "Full-Stack Developer & SQL Server DBA",
+        company_name: "myadegaran",
+        icon: myadegaran,
+        iconBg: '#78eb9a',
         date: "November 2023 - March 2024",
         points: [
             "Managed SQL Server database infrastructure to uphold data confidentiality and integrity. Developed a feature-rich web application with ASP.NET Core, JavaScript, and Bootstrap 5, enabling efficient CRUD operations and Excel data export via DataTables.net. Integrated secure user registration and login functionalities, limiting access to authorized personnel within the organization's internal network. Implemented an intuitive search and filtering feature, allowing users to quickly locate and analyze desired information within the available data tables.",
@@ -133,6 +144,9 @@ export const experiences = [
     },
     {
         title: "Content Writer",
+        company_name: "yorkbuilding",
+        icon: yorkbuilding,
+        iconBg: '#e3e6e4',
         date: "January 2023 - February 2023",
         points: [
             "During my brief experience, spanning nearly one month, as a freelance Content Writer for Canadian plumbing and house furniture companies, I tailored compelling content to meet industry standards. This involved creating SEO-friendly copy to enhance brand awareness and foster customer engagement.",
@@ -140,6 +154,9 @@ export const experiences = [
     },
     {
         title: "Web Developer",
+        company_name: "-",
+        icon: matintaherzadeh,
+        iconBg: '#9e8895',
         date: "October 2017 - until now",
         points: [
             "Continuing my journey as a freelance Web Developer, I specialize in crafting dynamic websites using a diverse range of technologies such as ASP.NET MVC and Core, ReactJS, MERN Stack, JavaScript, C#, Bootstrap, jQuery, ThreeJS, and more. With a passion for innovative design and seamless functionality, I continue to deliver top-notch solutions tailored to clients' needs while maintaining an active presence in the freelance community.",

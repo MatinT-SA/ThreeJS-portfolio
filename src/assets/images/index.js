@@ -1,15 +1,15 @@
 import hero from './hero.jpg'
-import meta from './meta.png'
-import shopify from './shopify.png'
-import starbucks from './starbucks.png'
-import tesla from './tesla.png'
 import logo from './logo.svg'
+import parsianFarhang from './parsianFarhang.png'
+import myadegaran from './myadegaran.png'
+import yorkbuilding from './yorkbuilding.png'
+import matintaherzadeh from './matintaherzadeh.png'
 
 export {
     hero,
-    meta,
-    shopify,
-    starbucks,
-    tesla,
-    logo
+    logo,
+    parsianFarhang,
+    myadegaran,
+    yorkbuilding,
+    matintaherzadeh
 }

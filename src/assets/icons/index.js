@@ -32,6 +32,7 @@ import telenote from './telenote.svg'
 import MatinShop from './MatinShop.svg'
 import Figma from './Figma.svg'
 import snake from './snake.svg'
+import parsianFarhang from './parsianFarhang.svg'
 
 export {
     css,
@@ -67,5 +68,6 @@ export {
     telenote,
     MatinShop,
     Figma,
-    snake
+    snake,
+    parsianFarhang
 }
