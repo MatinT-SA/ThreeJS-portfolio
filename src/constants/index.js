@@ -135,14 +135,14 @@ export const experiences = [
         title: "Content Writer",
         date: "January 2023 - February 2023",
         points: [
-            "During my brief experience, spanning nearly one month, as a Content Writer for Canadian plumbing and house furniture companies, I tailored compelling content to meet industry standards. This involved creating SEO-friendly copy to enhance brand awareness and foster customer engagement.",
+            "During my brief experience, spanning nearly one month, as a freelance Content Writer for Canadian plumbing and house furniture companies, I tailored compelling content to meet industry standards. This involved creating SEO-friendly copy to enhance brand awareness and foster customer engagement.",
         ],
     },
     {
         title: "Web Developer",
         date: "October 2017 - until now",
         points: [
-            "Developing cool websites using different technologies such as ASP.NET MVC and Core, ReactJS, MERN Stack, JavaScript, C#, Bootstrap, jQuery, ThreeJS and so on...",
+            "Continuing my journey as a freelance Web Developer, I specialize in crafting dynamic websites using a diverse range of technologies such as ASP.NET MVC and Core, ReactJS, MERN Stack, JavaScript, C#, Bootstrap, jQuery, ThreeJS, and more. With a passion for innovative design and seamless functionality, I continue to deliver top-notch solutions tailored to clients' needs while maintaining an active presence in the freelance community.",
         ],
     },
 ];
