@@ -6,8 +6,8 @@ import Sky from "../models/Sky"
 import Bird from "../models/Bird"
 import Plane from "../models/Plane"
 import HomeInfo from "../components/HomeInfo"
-import sakura from '../assets/lithium.mp3'
-import { soundon } from "../assets/icons"
+import lithium from '../assets/lithium.mp3'
+import { soundoff, soundon } from "../assets/icons"
 
 
 const Home = () => {
@@ -96,8 +96,12 @@ const Home = () => {
                 </Suspense>
             </Canvas>
 
-            <div>
-                <img src={soundon} alt="" />
+            <div className="absolute bottom-2 left-2">
+                <img
+                    src={!isPlayingMusic ? soundoff : soundon}
+                    alt="sound"
+                    className="w-10 h-10 cursor-pointer object-contain"
+                />
             </div>
         </section>
     )
