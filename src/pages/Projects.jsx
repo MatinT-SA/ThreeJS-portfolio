@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { arrow } from "../assets/icons";
 
 import {projects} from '../constants'
+import CTA from '../components/CTA';
 
 const Projects = () => {
   return (
@@ -45,6 +46,10 @@ const Projects = () => {
         </div>
       ))}
       </div>
+
+      <hr className='border-slate-200' />
+
+      <CTA />
     </section>
   )
 }
