@@ -101,6 +101,7 @@ const Home = () => {
                     src={!isPlayingMusic ? soundoff : soundon}
                     alt="sound"
                     className="w-10 h-10 cursor-pointer object-contain"
+                    onClick={()=>setIsPlayingMusic(!isPlayingMusic)}
                 />
             </div>
         </section>
