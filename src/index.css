@@ -34,8 +34,8 @@ body:has(.card[data-color="green"]:hover) {
         @apply font-semibold sm:text-3xl text-xl relative font-poppins;
     }
 
-    .blue-gradient_text {
-        @apply bg-gradient-to-r from-[#00c6ff] to-[#0072ff] bg-clip-text text-transparent;
+    .red-gradient_text {
+        @apply bg-gradient-to-r from-[#e24873] to-[#d3194e] bg-clip-text text-transparent;
     }
 
     .input {
@@ -47,7 +47,7 @@ body:has(.card[data-color="green"]:hover) {
     }
 
     .btn {
-        @apply text-white bg-gradient-to-r from-[#00c6ff] to-[#0072ff] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
+        @apply text-white bg-gradient-to-r from-[#e24873] to-[#d3194e] focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center;
     }
 
     .header {
