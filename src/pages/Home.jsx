@@ -31,11 +31,12 @@ const Home = () => {
 
     const adjustIslandForScreenSize = () => {
         let screenScale = null;
-        let screenPosition = [0, -6.5, -43];
-        let rotation = [0.1, -1.5, 0];
+        let screenPosition = [0, -6.5, -45];
+        let rotation = [0.1, -1.5, 0.5];
 
         if (window.innerWidth < 768) {
-            screenScale = [0.9, 0.9, 0.9];
+            screenScale = [0.85, 0.85, 0.85];
+            screenPosition = [0, -7.5, -47];
         } else {
             screenScale = [1, 1, 1];
         }
@@ -48,10 +49,10 @@ const Home = () => {
 
         if (window.innerWidth < 768) {
             screenScale = [1.5, 1.5, 1.5];
-            screenPosition = [0, -1.5, 0];
+            screenPosition = [0, -1.5, 10];
         } else {
-            screenScale = [3, 3, 3];
-            screenPosition = [0, -4, -4];
+            screenScale = [3.5, 3.5, 3.5];
+            screenPosition = [0, -3.5, -4.5];
         }
 
         return [screenScale, screenPosition];
@@ -64,25 +65,25 @@ const Home = () => {
 
     return (
         <section className="w-full h-screen relative">
-            {<div className="absolute top-28 right-0 left-0 z-10 flex items-center justify-center">
+            {<div className="absolute top-24 right-0 left-0 z-10 flex items-center justify-center">
                 {currentStage && <HomeInfo currentStage={currentStage} />}
             </div>}
 
             <Canvas
                 className={`w-full h-screen bg-transparent ${isRotating ? "cursor-grabbing" : "cursor-grab"}`}
-                camera={{ near: 0.1, far: 1000 }}
+                camera={{ near: 0.4, far: 800 }}
             >
                 <Suspense fallback={<Loader />}>
                     <directionalLight position={[12, 4, -3]} intensity={2} />
-                    <ambientLight intensity={0.5} />
-                    <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={1} />
+                    <ambientLight intensity={0.6} />
+                    <hemisphereLight skyColor="#b1e1ff" groundColor="#000000" intensity={0.7} />
 
                     <Bird />
                     <Sky isRotating={isRotating} />
                     <Island
                         scale={islandScale}
                         position={islandPosition}
-                        rotation={[0.1, 4.7077, 0]}
+                        rotation={[0.2, 4.705, 0]}
                         isRotating={isRotating}
                         setIsRotating={setIsRotating}
                         setCurrentStage={setCurrentStage}
@@ -91,7 +92,7 @@ const Home = () => {
                         planeScale={planeScale}
                         planePosition={planePosition}
                         isRotating={isRotating}
-                        rotation={[0, 20, 0]}
+                        rotation={[0, 1.15, 0.11]}
                     />
                 </Suspense>
             </Canvas>
