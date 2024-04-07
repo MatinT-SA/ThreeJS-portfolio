@@ -7,10 +7,10 @@ const Navbar = () => {
                 <p className="blue-gradient_text">MT</p>
             </NavLink>
             <nav className="flex text-lg gap-7 font-medium">
-                <NavLink to="/ThreeJS-portfolio/about" className={({isActive})=> isActive ? 'text-blue-500' : 'text-black'}>
+                <NavLink to="about" className={({isActive})=> isActive ? 'text-blue-500' : 'text-black'}>
                     About
                 </NavLink>
-                <NavLink to="/ThreeJS-portfolio/projects" className={({isActive})=> isActive ? 'text-blue-500' : 'text-black'}>
+                <NavLink to="projects" className={({isActive})=> isActive ? 'text-blue-500' : 'text-black'}>
                     Projects
                 </NavLink>
             </nav>

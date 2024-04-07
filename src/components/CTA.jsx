@@ -5,7 +5,7 @@ const CTA = () => {
   return (
     <section className='cta'>
         <p className='cta-text'>Wanna add to projects above? <br className='sm:block hidden' />Send me a direct message</p>
-        <Link to='/ThreeJS-portfolio/contact' className='btn'>
+        <Link to='/contact' className='btn'>
             Contact
         </Link>
     </section>
