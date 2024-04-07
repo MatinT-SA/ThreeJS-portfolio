@@ -9,9 +9,9 @@ const App = () => {
         <Navbar />
         <Routes>
           <Route path="/ThreeJS-portfolio" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
+          <Route path="/ThreeJS-portfolio/about" element={<About />} />
+          <Route path="/ThreeJS-portfolio/projects" element={<Projects />} />
+          <Route path="/ThreeJS-portfolio/contact" element={<Contact />} />
         </Routes>
       </Router>
     </main>

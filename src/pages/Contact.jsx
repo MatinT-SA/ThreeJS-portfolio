@@ -70,6 +70,7 @@ const Contact = () => {
               name="name"
               className="input"
               placeholder="Matin"
+              autoComplete='off'
               required
               value={form.name}
               onChange={handleChange}
@@ -85,6 +86,7 @@ const Contact = () => {
               name="email"
               className="input"
               placeholder="matin@gmail.com"
+              autoComplete='off'
               required
               value={form.email}
               onChange={handleChange}
