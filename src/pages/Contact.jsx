@@ -124,21 +124,21 @@ const Contact = () => {
       <div className='lg:w-1/2 w-full lg:h-auto md:h-[550px] h-[350px]'>
         <Canvas
           camera={{
-            position: [0, 0, 5],
-            fov: 75,
+            position: [1, 2, 4],
+            fov: 80,
             near: 0.1,
-            far: 1000,
+            far: 850,
           }}
         >
-          <directionalLight position={[0, 0, 1]} intensity={2.5} />
-          <ambientLight intensity={1} />
+          <directionalLight position={[1, 1.5, 10]} intensity={2} />
+          <ambientLight intensity={0.8} />
 
           <Suspense fallback={<Loader />}>
             <Fox
             currentAnimation={currentAnimation}
-              position={[0.5, 0.35, 0]}
-              rotation={[12.629, -0.6, 0]}
-              scale={[0.5, 0.5, 0.5]}
+              position={[0.6, 0.48, 0]}
+              rotation={[6.35, -0.6, 0]}
+              scale={[0.52, 0.52, 0.52]}
             />
           </Suspense>
         </Canvas>
