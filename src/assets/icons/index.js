@@ -33,6 +33,8 @@ import MatinShop from './MatinShop.svg'
 import Figma from './Figma.svg'
 import snake from './snake.svg'
 import parsianFarhang from './parsianFarhang.svg'
+import banklist from './banklist.svg'
+import pigDiceGame from './pigDiceGame.svg'
 
 export {
     css,
@@ -69,5 +71,7 @@ export {
     MatinShop,
     Figma,
     snake,
-    parsianFarhang
+    parsianFarhang,
+    banklist,
+    pigDiceGame
 }

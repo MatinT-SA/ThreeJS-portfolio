@@ -23,10 +23,12 @@ import {
     telenote,
     MatinShop,
     Figma,
-    snake
+    snake,
+    pigDiceGame,
+    banklist
 } from "../assets/icons";
 
-import {sqlserver} from '../assets/icons';
+import { sqlserver } from '../assets/icons';
 
 export const skills = [
     {
@@ -123,25 +125,25 @@ export const experiences = [
         ],
     },
     {
-        title: "WordPress Developer",
+        title: "Full Stack Developer",
         company_name: "myadegaran",
         icon: myadegaran,
         iconBg: '#78eb9a',
-        date: "November 2022 - March 2024",
+        date: "November 2022 - April 2024",
         points: [
             "Throughout my tenure in a specialized environment, I held the sole responsibility as the primary WordPress developer for nearly one and a half years. This role demanded adept management and optimization of WordPress platforms to meet organizational objectives. My experience as the main developer honed not only my technical skills but also my ability to adapt and excel in diverse settings.",
         ],
     },
-    {
-        title: "Full-Stack Developer & SQL Server DBA",
-        company_name: "myadegaran",
-        icon: myadegaran,
-        iconBg: '#78eb9a',
-        date: "November 2023 - March 2024",
-        points: [
-            "Managed SQL Server database infrastructure to uphold data confidentiality and integrity. Developed a feature-rich web application with ASP.NET Core, JavaScript, and Bootstrap 5, enabling efficient CRUD operations and Excel data export via DataTables.net. Integrated secure user registration and login functionalities, limiting access to authorized personnel within the organization's internal network. Implemented an intuitive search and filtering feature, allowing users to quickly locate and analyze desired information within the available data tables.",
-        ],
-    },
+    // {
+    //     title: "Full-Stack Developer & SQL Server DBA",
+    //     company_name: "myadegaran",
+    //     icon: myadegaran,
+    //     iconBg: '#78eb9a',
+    //     date: "November 2023 - March 2024",
+    //     points: [
+    //         "Managed SQL Server database infrastructure to uphold data confidentiality and integrity. Developed a feature-rich web application with ASP.NET Core, JavaScript, and Bootstrap 5, enabling efficient CRUD operations and Excel data export via DataTables.net. Integrated secure user registration and login functionalities, limiting access to authorized personnel within the organization's internal network. Implemented an intuitive search and filtering feature, allowing users to quickly locate and analyze desired information within the available data tables.",
+    //     ],
+    // },
     {
         title: "Content Writer",
         company_name: "yorkbuilding",
@@ -183,6 +185,20 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: banklist,
+        theme: 'btn-back-cyan',
+        name: 'Banklist',
+        description: 'BankList is a fully responsive web app optimized for seamless user experience on all devices and built with JavaScript (more focused on Front-End) for managing and viewing bank transactions with mock data. It features a user-friendly interface with dynamic data handling, and filtering capabilities to showcase almost all the array methods use cases.',
+        link: 'https://github.com/MatinT-SA/Banklist',
+    },
+    {
+        iconUrl: pigDiceGame,
+        theme: 'btn-back-coral',
+        name: 'Pig Dice Game',
+        description: 'A fully-responsive famous Pig Game coded in Vanilla besides HTML & CSS which you can play with your friends online.',
+        link: 'https://github.com/MatinT-SA/pig-dice-game',
+    },
     {
         iconUrl: guessTheNumber,
         theme: 'btn-back-red',
