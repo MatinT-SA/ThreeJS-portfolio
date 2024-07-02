@@ -192,6 +192,6 @@ body:has(.card[data-color="green"]:hover) {
 
 @media (max-width: 550px) {
     .sound {
-        position: absolute;
+        position: absolute !important;
     }
 }
