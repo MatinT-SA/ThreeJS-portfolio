@@ -190,6 +190,10 @@ body:has(.card[data-color="green"]:hover) {
         0.65vmin 1vmin #d2e4ff, 1vmin 0.65vmin #d2e4ff;
 }
 
+.sound {
+    z-index: 10000;
+}
+
 @media (max-width: 550px) {
     .sound {
         position: absolute !important;
