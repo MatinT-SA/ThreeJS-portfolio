@@ -25,7 +25,8 @@ import {
     Figma,
     snake,
     pigDiceGame,
-    banklist
+    banklistWebApp,
+    banklistWebsite
 } from "../assets/icons";
 
 import { sqlserver } from '../assets/icons';
@@ -186,9 +187,16 @@ export const socialLinks = [
 
 export const projects = [
     {
-        iconUrl: banklist,
+        iconUrl: banklistWebsite,
+        theme: 'btn-back-magenta',
+        name: 'Banklist Website',
+        description: 'This is the website for my Banklist web application. A fully responsive cool UI with phenominal features and animations.',
+        link: 'https://github.com/MatinT-SA/banklist-website',
+    },
+    {
+        iconUrl: banklistWebApp,
         theme: 'btn-back-cyan',
-        name: 'Banklist',
+        name: 'Banklist Web App',
         description: 'BankList is a fully responsive web app optimized for seamless user experience on all devices and built with JavaScript (more focused on Front-End) for managing and viewing bank transactions with mock data. It features a user-friendly interface with dynamic data handling, and filtering capabilities to showcase almost all the array methods use cases.',
         link: 'https://github.com/MatinT-SA/Banklist',
     },
