@@ -26,7 +26,8 @@ import {
     snake,
     pigDiceGame,
     banklistWebApp,
-    banklistWebsite
+    banklistWebsite,
+    trackMap
 } from "../assets/icons";
 
 import { sqlserver } from '../assets/icons';
@@ -186,6 +187,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: trackMap,
+        theme: 'btn-back-purple',
+        name: 'Track Map',
+        description: 'A fully responsive map application for tracking your activities based on your current location which gets automatically detected by geolocation API and will allow you to add running or cyclist activities.',
+        link: 'https://github.com/MatinT-SA/TrackMap',
+    },
     {
         iconUrl: banklistWebsite,
         theme: 'btn-back-magenta',

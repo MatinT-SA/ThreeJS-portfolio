@@ -36,6 +36,7 @@ import parsianFarhang from './parsianFarhang.svg'
 import banklistWebApp from './banklist.svg'
 import banklistWebsite from './banklist.svg'
 import pigDiceGame from './pigDiceGame.svg'
+import trackMap from './trackMap.svg'
 
 export {
     css,
@@ -75,5 +76,6 @@ export {
     parsianFarhang,
     banklistWebApp,
     pigDiceGame,
-    banklistWebsite
+    banklistWebsite,
+    trackMap
 }
