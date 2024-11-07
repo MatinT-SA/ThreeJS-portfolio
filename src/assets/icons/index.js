@@ -37,6 +37,7 @@ import banklistWebApp from './banklist.svg'
 import banklistWebsite from './banklist.svg'
 import pigDiceGame from './pigDiceGame.svg'
 import trackMap from './trackMap.svg'
+import findish from './findish.svg'
 
 export {
     css,
@@ -77,5 +78,6 @@ export {
     banklistWebApp,
     pigDiceGame,
     banklistWebsite,
-    trackMap
+    trackMap,
+    findish
 }

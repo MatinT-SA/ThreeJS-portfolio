@@ -27,7 +27,8 @@ import {
     pigDiceGame,
     banklistWebApp,
     banklistWebsite,
-    trackMap
+    trackMap,
+    findish
 } from "../assets/icons";
 
 import { sqlserver } from '../assets/icons';
@@ -187,6 +188,13 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: findish,
+        theme: 'btn-back-mint',
+        name: 'Findish',
+        description: 'A fully responsive recipe app built with vanilla JS, SASS, and API integration. Users can search, discover, and add/remove recipes.',
+        link: 'https://github.com/MatinT-SA/Findish',
+    },
     {
         iconUrl: trackMap,
         theme: 'btn-back-purple',
