@@ -36,6 +36,7 @@ import {
   findish,
   luggageList,
   pizzaPlaza,
+  shareSplit,
 } from "../assets/icons";
 
 import { sqlserver } from "../assets/icons";
@@ -195,6 +196,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: shareSplit,
+    theme: "btn-back-balance",
+    name: "Share Split",
+    description:
+      "A responsive React application for effortlessly splitting expenses among friends or groups. Calculate, divide, and share costs with ease. Getting help from main React Hooks such as useState, useEffect.",
+    link: "https://github.com/MatinT-SA/share-split",
+  },
   {
     iconUrl: luggageList,
     theme: "btn-back-soft-green",
