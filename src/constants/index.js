@@ -37,6 +37,7 @@ import {
   luggageList,
   pizzaPlaza,
   shareSplit,
+  goalTracker,
 } from "../assets/icons";
 
 import { sqlserver } from "../assets/icons";
@@ -196,6 +197,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: goalTracker,
+    theme: "btn-back-goal-tracker",
+    name: "Goal Tracker",
+    description:
+      "A responsive React app for tracking goals by priority, featuring a progress bar for completed tasks. Utilizes React Hooks (useState, useEffect, forwardRef) and react-icons for a modern, efficient design.",
+    link: "https://github.com/MatinT-SA/goal-tracker",
+  },
   {
     iconUrl: shareSplit,
     theme: "btn-back-balance",

@@ -41,6 +41,7 @@ import findish from "./findish.svg";
 import pizzaPlaza from "./pizzaPlaza.svg";
 import luggageList from "./luggageList.svg";
 import shareSplit from "./shareSplit.svg";
+import goalTracker from "./goalTracker.svg";
 
 export {
   css,
@@ -86,4 +87,5 @@ export {
   pizzaPlaza,
   luggageList,
   shareSplit,
+  goalTracker,
 };
