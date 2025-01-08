@@ -38,6 +38,7 @@ import {
   pizzaPlaza,
   shareSplit,
   goalTracker,
+  rateFlicks,
 } from "../assets/icons";
 
 import { sqlserver } from "../assets/icons";
@@ -197,6 +198,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: rateFlicks,
+    theme: "btn-back-rateflicks",
+    name: "Rateflicks",
+    description:
+      "A fully responsive movie rating app built with React that allows users to search for movies, view ratings, and leave their own reviews. I've incorporated dynamic features like search filters, real-time data fetching, and interactive elements with react-spinners for loading animations and react-toastify for notifications.",
+    link: "https://github.com/MatinT-SA/Rateflicks",
+  },
   {
     iconUrl: goalTracker,
     theme: "btn-back-goal-tracker",

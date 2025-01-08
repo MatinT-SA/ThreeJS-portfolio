@@ -114,6 +114,10 @@ body:has(.card[data-color="green"]:hover) {
   box-shadow: 16px 0 40px #e4e4e4;
 }
 
+.block-container .btn-back-rateflicks {
+  background: linear-gradient(135deg, #db2929 -20%, #68161c 120%);
+}
+
 .block-container .btn-back-red {
   background: linear-gradient(135deg, #ff4b1f -20%, #ff9068 120%);
 }
