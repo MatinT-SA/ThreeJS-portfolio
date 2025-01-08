@@ -42,6 +42,7 @@ import pizzaPlaza from "./pizzaPlaza.svg";
 import luggageList from "./luggageList.svg";
 import shareSplit from "./shareSplit.svg";
 import goalTracker from "./goalTracker.svg";
+import rateFlicks from "./rateFlicks.svg";
 
 export {
   css,
@@ -88,4 +89,5 @@ export {
   luggageList,
   shareSplit,
   goalTracker,
+  rateFlicks,
 };
