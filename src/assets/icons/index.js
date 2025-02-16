@@ -43,6 +43,7 @@ import luggageList from "./luggageList.svg";
 import shareSplit from "./shareSplit.svg";
 import goalTracker from "./goalTracker.svg";
 import rateFlicks from "./rateFlicks.svg";
+import travex from "./travex.svg";
 
 export {
   css,
@@ -90,4 +91,5 @@ export {
   shareSplit,
   goalTracker,
   rateFlicks,
+  travex,
 };

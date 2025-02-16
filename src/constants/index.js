@@ -39,6 +39,7 @@ import {
   shareSplit,
   goalTracker,
   rateFlicks,
+  travex,
 } from "../assets/icons";
 
 import { sqlserver } from "../assets/icons";
@@ -198,6 +199,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: travex,
+    theme: "btn-back-rateflicks",
+    name: "Travex",
+    description:
+      "Travex is an interactive travel planning web app, fully responsive, built with React + Vite. It allows users to select and mark places they have traveled to using API calls. The app integrates various tools and libraries to provide a seamless and intuitive experience.",
+    link: "https://github.com/MatinT-SA/travex",
+  },
   {
     iconUrl: rateFlicks,
     theme: "btn-back-rateflicks",
