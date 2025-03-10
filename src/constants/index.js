@@ -40,6 +40,7 @@ import {
   goalTracker,
   rateFlicks,
   travex,
+  zesty,
 } from "../assets/icons";
 
 import { sqlserver } from "../assets/icons";
@@ -200,8 +201,16 @@ export const socialLinks = [
 
 export const projects = [
   {
+    iconUrl: zesty,
+    theme: "btn-back-zesty",
+    name: "Zesty",
+    description:
+      "Zesty is a fully responsive React + Vite web app, designed to showcase modern frontend development techniques. It leverages Three.js for 3D interactivity, Redux Toolkit for efficient state management, and Tailwind CSS for a sleek, responsive UI. The app integrates various tools and libraries to provide a seamless and high-performance user experience.",
+    link: "https://github.com/MatinT-SA/zesty",
+  },
+  {
     iconUrl: travex,
-    theme: "btn-back-rateflicks",
+    theme: "btn-back-travex",
     name: "Travex",
     description:
       "Travex is an interactive travel planning web app, fully responsive, built with React + Vite. It allows users to select and mark places they have traveled to using API calls. The app integrates various tools and libraries to provide a seamless and intuitive experience.",

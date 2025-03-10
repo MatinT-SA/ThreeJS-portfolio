@@ -182,6 +182,14 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #4caf50 -20%, #00bcd4 120%);
 }
 
+.block-container .btn-back-travex {
+  background: linear-gradient(135deg, #2a5298 -20%, #1d3557 120%);
+}
+
+.block-container .btn-back-zesty {
+  background: linear-gradient(135deg, #ff8c00 -20%, #e07b00 120%);
+}
+
 .block-container .btn-front {
   position: absolute;
   inset: 0;

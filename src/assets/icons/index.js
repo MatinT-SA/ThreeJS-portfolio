@@ -44,6 +44,7 @@ import shareSplit from "./shareSplit.svg";
 import goalTracker from "./goalTracker.svg";
 import rateFlicks from "./rateFlicks.svg";
 import travex from "./travex.svg";
+import zesty from "./zesty.svg";
 
 export {
   css,
@@ -92,4 +93,5 @@ export {
   goalTracker,
   rateFlicks,
   travex,
+  zesty,
 };
