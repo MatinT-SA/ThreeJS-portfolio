@@ -41,6 +41,7 @@ import {
   rateFlicks,
   travex,
   zesty,
+  stelix,
 } from "../assets/icons";
 
 import { sqlserver } from "../assets/icons";
@@ -200,6 +201,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: stelix,
+    theme: "btn-back-stelix",
+    name: "Stelix",
+    description:
+      "Stelix is a fully responsive web application built with React and Vite, designed for managing hotel check-ins. The project incorporates advanced React concepts to deliver a seamless and interactive user experience.",
+    link: "https://github.com/MatinT-SA/stelix",
+  },
   {
     iconUrl: zesty,
     theme: "btn-back-zesty",

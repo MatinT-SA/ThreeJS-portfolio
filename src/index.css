@@ -190,6 +190,10 @@ body:has(.card[data-color="green"]:hover) {
   background: linear-gradient(135deg, #ff8c00 -20%, #e07b00 120%);
 }
 
+.block-container .btn-back-stelix {
+  background: linear-gradient(135deg, #1a2980 -20%, #26d0ce 120%);
+}
+
 .block-container .btn-front {
   position: absolute;
   inset: 0;

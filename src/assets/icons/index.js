@@ -45,6 +45,7 @@ import goalTracker from "./goalTracker.svg";
 import rateFlicks from "./rateFlicks.svg";
 import travex from "./travex.svg";
 import zesty from "./zesty.svg";
+import stelix from "./stelix.svg";
 
 export {
   css,
@@ -94,4 +95,5 @@ export {
   rateFlicks,
   travex,
   zesty,
+  stelix,
 };
