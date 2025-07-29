@@ -46,6 +46,7 @@ import rateFlicks from "./rateFlicks.svg";
 import travex from "./travex.svg";
 import zesty from "./zesty.svg";
 import stelix from "./stelix.svg";
+import stelixWebsite from "./stelixWebsite.png";
 
 export {
   css,
@@ -96,4 +97,5 @@ export {
   travex,
   zesty,
   stelix,
+  stelixWebsite,
 };

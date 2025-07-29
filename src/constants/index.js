@@ -42,6 +42,7 @@ import {
   travex,
   zesty,
   stelix,
+  stelixWebsite,
 } from "../assets/icons";
 
 import { sqlserver } from "../assets/icons";
@@ -201,6 +202,14 @@ export const socialLinks = [
 ];
 
 export const projects = [
+  {
+    iconUrl: stelixWebsite,
+    theme: "btn-back-black",
+    name: "Stelix Website",
+    description:
+      "Stelix Website is the customer-facing web application for the Stelix platform. It provides users with an intuitive interface to access, interact with, and manage the core features and services offered by Stelix.",
+    link: "https://github.com/MatinT-SA/stelix-website",
+  },
   {
     iconUrl: stelix,
     theme: "btn-back-stelix",
